@@ -1,0 +1,19 @@
+{
+  "name": "fruitz",
+  "version": "1.0.0",
+  "description": "A frit and Veggie selling website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "aditya",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "bootstrap": "^5.3.0-alpha1",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3",
+    "nodemon": "^2.0.20",
+    "pug": "^3.0.2"
+  }
+}

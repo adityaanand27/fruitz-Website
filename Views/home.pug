@@ -1,0 +1,37 @@
+extend base.pug
+block style 
+   style
+     include ../static/style.css
+block content
+     
+    section#introSection
+        div Welcome to fritZ
+        div.small Thinking of fruit Think fruitZ
+    section#missionSection
+        h2 Our Mission
+        div.card
+            h3 Orgnically Grown
+            div.card-box
+               div.card-content
+                    p We get fruits directly from farmers
+
+        div.card
+            h3 Door Delivery
+            div.card-box
+               
+                div.card-content
+                    p We deliver directly to your doorstep
+    
+        div.card
+            h3 Customer Service
+            div.card-box
+                
+                div.card-content
+                    p We give priority service to our customers             
+    section#sponsorsSection
+        h2 Our Sponsors
+           img(src= "Views/free.png, alt= “Sponsor Image, class= “spImage")
+           img(src= "Views/Github.png, alt= “Sponsor Image, class= “spImage")
+           img(src= "Views/paytm.png, alt= “Sponsor Image, class= “spImage")
+           img(src= "Views/visa.png, alt= “Sponsor Image, class= “spImage")
+                      

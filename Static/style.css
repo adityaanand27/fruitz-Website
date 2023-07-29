@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 20px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 42px;
+    background-color: #d43b3b;
+   
+}
+#navbar{
+    background-color: #d43b3b;
+    font-family: 'Yeon Sung' ;
+    padding: 13px, 14px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{ 
+   text-decoration: none;
+    padding: 13px 20px;
+}
+#navbar li a:hover{
+    color: black;  
+}
+#introSection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'ZCOOL QingKe HuangYou';
+    font-size: 65px;
+    align-items: center;
+    background: center/cover no-repeat url("/static/bg.jpg") ;
+    height: 425px;
+    background-color: red;
+}
+#introSection div.small{
+    font-size: 52px;
+    padding: 5px;
+}
+#missionSection{
+    height: 224px;
+    width: 67%;
+    margin: auto;
+}
+
+#missionSection h2{
+    font-size: 36px;
+    font-family: 'Yeon Sung' ;
+    text-align: center;
+    padding-top: 12px;
+}
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 17px 14px;
+    height:102px;
+    display: inline-block;
+    }
+
+.card h3{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-box{
+  
+    display: flex;
+    align-items: center;
+   
+}
+
+
+#sponsorsSection{
+    height: 200px;
+    background-color: #fbd6d6c7;
+    align-items: center;
+}
+#sponsorsSection h2{
+   align-items: center;
+}
+#sponsorsSection{
+    height: 120px;
+    max-width: 100%;
+    margin: auto
+}
+
+spImage{
+    height: 180px;
+    margin: 120px;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    color: wheat;
+    background-color: black;
+    height: 27px;
+    align-content: center;
+}
